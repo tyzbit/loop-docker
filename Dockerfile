@@ -1,5 +1,5 @@
 FROM golang:1.12-alpine as builder
-ENV VERSION="v0.2-beta"
+ENV VERSION="v0.2-alpha"
 
 # Force Go to use the cgo based DNS resolver. This is required to ensure DNS
 # queries required to connect to linked containers succeed.
